@@ -1,0 +1,15 @@
+{
+  "version": "45",
+  "name": "DomAI 3D Material Editor",
+  "features": [
+    "3d-material-application",
+    "procedural-textures",
+    "facade",
+    "roof",
+    "fence",
+    "save",
+    "random",
+    "before-after",
+    "semantic-mesh-detection"
+  ]
+}

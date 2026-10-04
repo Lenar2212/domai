@@ -1,0 +1,13 @@
+{
+  "version": "39",
+  "name": "DomAI Layout Variants",
+  "features": [
+    "2-12 variants",
+    "alternative layouts",
+    "technical-score",
+    "boundary-check",
+    "overlap-check",
+    "select",
+    "apply-to-3d"
+  ]
+}

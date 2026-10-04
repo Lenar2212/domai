@@ -1,0 +1,14 @@
+{
+  "version": "34",
+  "name": "DomAI AI Planner",
+  "features": [
+    "requirements",
+    "auto-layout",
+    "multi-floor",
+    "area-optimization",
+    "free-text-parser",
+    "doors-windows",
+    "2d-3d-events",
+    "save"
+  ]
+}

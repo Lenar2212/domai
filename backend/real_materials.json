@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wall_gasblock_400_real",
+    "category": "Стены",
+    "name": "Газобетон ЛСР 400×250×625 мм D400",
+    "unit": "м³",
+    "price": 6750.08,
+    "supplier": "Петрович",
+    "region": "Москва/СПб baseline",
+    "source_url": "https://petrovich.ru/product/101727/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "wall_gasblock_300_real"
+    ]
+  },
+  {
+    "id": "wall_gasblock_300_real",
+    "category": "Стены",
+    "name": "Газобетон D400 300 мм — базовый ориентир",
+    "unit": "м³",
+    "price": 6750.08,
+    "supplier": "Петрович",
+    "region": "Москва/СПб baseline",
+    "source_url": "https://petrovich.ru/catalog/6619/gazobloki-d400/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "wall_gasblock_400_real"
+    ]
+  },
+  {
+    "id": "roof_metal_real",
+    "category": "Кровля",
+    "name": "Grand Line Классик 0,5 мм, металлочерепица",
+    "unit": "м²",
+    "price": 1178,
+    "supplier": "Петрович",
+    "region": "Москва",
+    "source_url": "https://moscow.petrovich.ru/product/1129068/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "roof_metal_real_alt"
+    ]
+  },
+  {
+    "id": "roof_metal_real_alt",
+    "category": "Кровля",
+    "name": "Grand Line Классик 0,5 мм — другой вариант",
+    "unit": "м²",
+    "price": 1999,
+    "supplier": "Петрович",
+    "region": "Москва",
+    "source_url": "https://moscow.petrovich.ru/product/635021/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "roof_metal_real"
+    ]
+  },
+  {
+    "id": "window_real",
+    "category": "Окна",
+    "name": "VEKA Softline 70 1160×1200 мм, энергосбережение",
+    "unit": "шт",
+    "price": 24896,
+    "supplier": "Петрович",
+    "region": "Москва",
+    "source_url": "https://moscow.petrovich.ru/product/981550/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "window_real_alt"
+    ]
+  },
+  {
+    "id": "window_real_alt",
+    "category": "Окна",
+    "name": "VEKA WHS Halo 60 1160×1000 мм",
+    "unit": "шт",
+    "price": 16833,
+    "supplier": "Петрович",
+    "region": "Москва",
+    "source_url": "https://moscow.petrovich.ru/product/964890/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "window_real"
+    ]
+  },
+  {
+    "id": "door_real",
+    "category": "Двери",
+    "name": "Входная дверь Дверной континент Термаль Люкс",
+    "unit": "шт",
+    "price": 38679,
+    "supplier": "Петрович",
+    "region": "Москва",
+    "source_url": "https://moscow.petrovich.ru/product/1130913/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "door_real_alt"
+    ]
+  },
+  {
+    "id": "door_real_alt",
+    "category": "Двери",
+    "name": "Входная дверь Промет Винтер Панорама",
+    "unit": "шт",
+    "price": 51294,
+    "supplier": "Петрович",
+    "region": "Москва",
+    "source_url": "https://moscow.petrovich.ru/product/1215433/",
+    "checked_at": "2026-10-03",
+    "price_type": "public_price",
+    "alternatives": [
+      "door_real"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "version": "51",
+  "name": "DomAI Project Sheets",
+  "features": [
+    "title",
+    "site-info",
+    "masterplan",
+    "floor-plans",
+    "facades",
+    "section",
+    "3d-visualization",
+    "room-schedule",
+    "parameter-sheet",
+    "print-pdf",
+    "json-export"
+  ]
+}

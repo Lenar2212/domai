@@ -1,0 +1,17 @@
+{
+  "version": "41",
+  "name": "DomAI Appearance Editor",
+  "features": [
+    "facade-colors",
+    "roof-colors",
+    "window-colors",
+    "door-colors",
+    "gate-colors",
+    "fence-colors",
+    "grass-colors",
+    "tree-colors",
+    "fence-styles",
+    "random-style",
+    "save-style"
+  ]
+}

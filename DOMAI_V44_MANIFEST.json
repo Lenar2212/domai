@@ -1,0 +1,19 @@
+{
+  "version": "44",
+  "name": "DomAI Procedural Textures",
+  "features": [
+    "brick",
+    "wood",
+    "stone",
+    "plaster",
+    "siding",
+    "metal",
+    "tile",
+    "soft-roof",
+    "profile-fence",
+    "picket",
+    "mesh",
+    "canvas-textures",
+    "random-set"
+  ]
+}

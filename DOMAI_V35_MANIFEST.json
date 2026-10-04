@@ -1,0 +1,19 @@
+{
+  "version": "35",
+  "name": "DomAI Site Masterplan",
+  "features": [
+    "plot",
+    "house",
+    "garage",
+    "bathhouse",
+    "parking",
+    "garden",
+    "terrace",
+    "bbq",
+    "paths",
+    "boundary-check",
+    "overlap-check",
+    "optimization",
+    "save"
+  ]
+}

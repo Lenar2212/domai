@@ -1,0 +1,12 @@
+{
+  "version": "49",
+  "name": "DomAI 3D Gizmo Snap",
+  "features": [
+    "3d-drag",
+    "xz-positioning",
+    "grid-snap-0.5m",
+    "grid-snap-1m",
+    "free-move",
+    "position-save"
+  ]
+}

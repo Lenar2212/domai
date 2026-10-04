@@ -1,0 +1,124 @@
+[
+  {
+    "id": "wall_gasblock_400",
+    "category": "Стены",
+    "name": "Газобетонный блок D400 400 мм",
+    "unit": "м³",
+    "price": 9800,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "wall_gasblock_300",
+      "wall_ceramic"
+    ]
+  },
+  {
+    "id": "wall_gasblock_300",
+    "category": "Стены",
+    "name": "Газобетонный блок D400 300 мм",
+    "unit": "м³",
+    "price": 7900,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "wall_gasblock_400"
+    ]
+  },
+  {
+    "id": "wall_ceramic",
+    "category": "Стены",
+    "name": "Керамический блок",
+    "unit": "м³",
+    "price": 14500,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "wall_gasblock_400"
+    ]
+  },
+  {
+    "id": "roof_metal",
+    "category": "Кровля",
+    "name": "Металлочерепица",
+    "unit": "м²",
+    "price": 1100,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "roof_soft"
+    ]
+  },
+  {
+    "id": "roof_soft",
+    "category": "Кровля",
+    "name": "Гибкая черепица",
+    "unit": "м²",
+    "price": 1450,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "roof_metal"
+    ]
+  },
+  {
+    "id": "window_pvc",
+    "category": "Окна",
+    "name": "ПВХ стеклопакет",
+    "unit": "шт",
+    "price": 42000,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "window_premium"
+    ]
+  },
+  {
+    "id": "window_premium",
+    "category": "Окна",
+    "name": "Энергоэффективное окно",
+    "unit": "шт",
+    "price": 68000,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "window_pvc"
+    ]
+  },
+  {
+    "id": "door_entry",
+    "category": "Двери",
+    "name": "Входная утеплённая дверь",
+    "unit": "шт",
+    "price": 38000,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "door_premium"
+    ]
+  },
+  {
+    "id": "door_premium",
+    "category": "Двери",
+    "name": "Премиальная входная дверь",
+    "unit": "шт",
+    "price": 72000,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "door_entry"
+    ]
+  },
+  {
+    "id": "finish_basic",
+    "category": "Отделка",
+    "name": "Базовая внутренняя отделка",
+    "unit": "м²",
+    "price": 12000,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "finish_plus"
+    ]
+  },
+  {
+    "id": "finish_plus",
+    "category": "Отделка",
+    "name": "Расширенная внутренняя отделка",
+    "unit": "м²",
+    "price": 19500,
+    "supplier": "Демо-каталог",
+    "alternatives": [
+      "finish_basic"
+    ]
+  }
+]

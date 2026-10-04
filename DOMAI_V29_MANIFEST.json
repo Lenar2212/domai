@@ -1,0 +1,14 @@
+{
+  "version": "29",
+  "name": "DomAI 3D Editor",
+  "status": "conceptual-editor-mvp",
+  "features": [
+    "3d-select",
+    "room-edit",
+    "add-room",
+    "doors",
+    "windows",
+    "delete",
+    "save-json"
+  ]
+}

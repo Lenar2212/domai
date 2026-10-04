@@ -1,0 +1,12 @@
+{
+  "version": "40",
+  "name": "DomAI Variant Compare",
+  "features": [
+    "variant-cards",
+    "2d-thumbnails",
+    "metrics",
+    "selection",
+    "apply-to-3d",
+    "persist-all-v39-plans"
+  ]
+}

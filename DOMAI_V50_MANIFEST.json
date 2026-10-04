@@ -1,0 +1,15 @@
+{
+  "version": "50",
+  "name": "DomAI Approval Project Preparation",
+  "features": [
+    "project-for-approval-preparation",
+    "site-data",
+    "owner-data",
+    "cadastre",
+    "checklist",
+    "readiness",
+    "json-export",
+    "print-to-pdf",
+    "visual-concept-metadata"
+  ]
+}

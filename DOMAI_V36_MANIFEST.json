@@ -1,0 +1,19 @@
+{
+  "version": "36",
+  "name": "DomAI 3D Site",
+  "features": [
+    "3d-plot",
+    "house",
+    "garage",
+    "bathhouse",
+    "garden",
+    "parking",
+    "terrace",
+    "bbq",
+    "paths",
+    "fence",
+    "orbit",
+    "top-view",
+    "perspective"
+  ]
+}

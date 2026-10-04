@@ -1,0 +1,16 @@
+{
+  "version": "46",
+  "name": "DomAI Visual Material Catalog 3D",
+  "features": [
+    "visual-catalog",
+    "material-cards",
+    "3d-application",
+    "facade",
+    "roof",
+    "fence",
+    "windows",
+    "doors",
+    "procedural-preview",
+    "localStorage"
+  ]
+}

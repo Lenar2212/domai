@@ -1,0 +1,24 @@
+
+const v42Data={"facade": [{"id": "plaster", "name": "Штукатурка", "color": "#d8cbb7", "pattern": "linear-gradient(135deg,#e6dccb,#cfc2ad)"}, {"id": "brick", "name": "Кирпич", "color": "#a95f45", "pattern": "repeating-linear-gradient(0deg,#a95f45 0 8px,#7f4736 9px 10px)"}, {"id": "wood", "name": "Дерево", "color": "#9a6b43", "pattern": "repeating-linear-gradient(90deg,#9a6b43 0 9px,#765032 10px 12px)"}, {"id": "stone", "name": "Камень", "color": "#8c8b84", "pattern": "radial-gradient(circle at 20% 30%,#b7b5aa 0 10%,transparent 11%),radial-gradient(circle at 70% 70%,#66655f 0 12%,transparent 13%),#89877f"}, {"id": "siding", "name": "Сайдинг", "color": "#a9adb0", "pattern": "repeating-linear-gradient(0deg,#a9adb0 0 7px,#777d82 8px 9px)"}], "roof": [{"id": "metal", "name": "Металлочерепица", "color": "#4c5560", "pattern": "repeating-linear-gradient(0deg,#4c5560 0 7px,#303840 8px 10px)"}, {"id": "soft", "name": "Мягкая кровля", "color": "#30343a", "pattern": "repeating-linear-gradient(45deg,#3b4048 0 8px,#24282e 9px 15px)"}, {"id": "tile", "name": "Черепица", "color": "#9b5947", "pattern": "repeating-linear-gradient(0deg,#9b5947 0 8px,#6e3e32 9px 11px)"}, {"id": "green", "name": "Фальцевая зелёная", "color": "#31513b", "pattern": "repeating-linear-gradient(90deg,#31513b 0 5px,#203a2a 6px 8px)"}], "fence": [{"id": "profile", "name": "Профнастил", "color": "#59636b", "pattern": "repeating-linear-gradient(90deg,#59636b 0 8px,#3f474d 9px 12px)"}, {"id": "picket", "name": "Штакетник", "color": "#8a6747", "pattern": "repeating-linear-gradient(90deg,#9b754f 0 5px,#6f5139 6px 10px)"}, {"id": "wood", "name": "Деревянный", "color": "#76513b", "pattern": "repeating-linear-gradient(0deg,#76513b 0 9px,#5a3c2c 10px 12px)"}, {"id": "mesh", "name": "Сетка", "color": "#62686b", "pattern": "repeating-linear-gradient(45deg,transparent 0 6px,#62686b 7px 8px),repeating-linear-gradient(-45deg,#aeb3b5 0 6px,#62686b 7px 8px)"}], "window": [{"id": "clear", "name": "Прозрачное", "color": "#9ed2e8", "pattern": "linear-gradient(135deg,#d8f1fa,#70abc6)"}, {"id": "dark", "name": "Тёмное", "color": "#283746", "pattern": "linear-gradient(135deg,#516272,#16212b)"}, {"id": "warm", "name": "Тёплое", "color": "#ead7a4", "pattern": "linear-gradient(135deg,#fff1bd,#c9a85d)"}], "door": [{"id": "oak", "name": "Дуб", "color": "#8b5a36", "pattern": "repeating-linear-gradient(90deg,#9b6a43 0 8px,#704626 9px 11px)"}, {"id": "graphite", "name": "Графит", "color": "#292d31", "pattern": "linear-gradient(135deg,#4b5156,#1d2023)"}, {"id": "white", "name": "Светлая", "color": "#e4e0d6", "pattern": "linear-gradient(135deg,#fff,#c9c5ba)"}], "gate": [{"id": "graphite", "name": "Графит", "color": "#363b40", "pattern": "repeating-linear-gradient(90deg,#4c5358 0 8px,#282d31 9px 11px)"}, {"id": "wood", "name": "Под дерево", "color": "#76513b", "pattern": "repeating-linear-gradient(90deg,#95653f 0 8px,#68452f 9px 12px)"}, {"id": "white", "name": "Светлые", "color": "#d9d9d4", "pattern": "linear-gradient(135deg,#f5f5f2,#b7b7b3)"}]};
+let v42Sel=JSON.parse(localStorage.getItem("domai_v42_materials")||"null")||{};
+const v42Root=document.getElementById("v42Catalog");
+function v42Card(cat,m){
+ const id=`v42_${cat}_${m.id}`,d=document.createElement("div");
+ d.style.cssText="border:2px solid #bbb;border-radius:10px;padding:10px;cursor:pointer";
+ d.dataset.cat=cat;d.dataset.id=m.id;
+ d.innerHTML=`<div style="height:70px;border-radius:7px;background:${m.pattern||m.color};border:1px solid #888"></div><b>${m.name}</b><br><small>${cat}</small>`;
+ d.onclick=()=>{v42Sel[cat]=m.id;v42Render()};
+ return d;
+}
+function v42Render(){
+ v42Root.innerHTML="";
+ Object.entries(v42Data).forEach(([cat,arr])=>{
+  const h=document.createElement("div");h.style.gridColumn="1/-1";h.innerHTML=`<h3 style="margin:8px 0 2px">${({facade:"Фасад",roof:"Крыша",fence:"Забор",window:"Окна",door:"Двери",gate:"Ворота"})[cat]}</h3>`;
+  v42Root.appendChild(h);
+  arr.forEach(m=>{const c=v42Card(cat,m);if(v42Sel[cat]===m.id)c.style.border="3px solid #222";v42Root.appendChild(c)});
+ });
+}
+window.domai42Apply=()=>{localStorage.setItem("domai_v42_materials",JSON.stringify(v42Sel));window.dispatchEvent(new CustomEvent("domai42materials",{detail:v42Sel}));document.getElementById("v42Status").textContent="🎨 Материалы применены к концепции."};
+window.domai42Save=()=>{localStorage.setItem("domai_v42_materials",JSON.stringify(v42Sel));document.getElementById("v42Status").textContent="💾 Каталог сохранён."};
+window.domai42Random=()=>{Object.entries(v42Data).forEach(([cat,a])=>v42Sel[cat]=a[Math.floor(Math.random()*a.length)].id);v42Render();domai42Apply();document.getElementById("v42Status").textContent="✨ Создан случайный набор материалов."};
+v42Render();

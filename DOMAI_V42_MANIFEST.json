@@ -1,0 +1,15 @@
+{
+  "version": "42",
+  "name": "DomAI Material Catalog",
+  "features": [
+    "facade-materials",
+    "roof-materials",
+    "fence-materials",
+    "window-materials",
+    "door-materials",
+    "gate-materials",
+    "visual-swatches",
+    "random-set",
+    "save"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "31",
+  "name": "DomAI Wall Plan Sync",
+  "features": [
+    "wall-drag",
+    "room-resize",
+    "opening-wall-attach",
+    "2d-3d-sync",
+    "grid-snap",
+    "save"
+  ]
+}

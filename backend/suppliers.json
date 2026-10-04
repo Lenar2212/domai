@@ -1,0 +1,29 @@
+[
+  {
+    "supplier_id": "petrovich",
+    "name": "Петрович",
+    "type": "retail",
+    "region": "Москва",
+    "status": "public_catalog",
+    "url": "https://petrovich.ru/",
+    "note": "Публичный каталог; наличие и цена требуют проверки на стороне магазина."
+  },
+  {
+    "supplier_id": "leroy",
+    "name": "Лемана ПРО",
+    "type": "retail",
+    "region": "Москва",
+    "status": "public_catalog",
+    "url": "https://lemanapro.ru/",
+    "note": "Публичный каталог; цены и наличие зависят от региона."
+  },
+  {
+    "supplier_id": "vseinstrumenti",
+    "name": "ВсеИнструменты.ру",
+    "type": "retail",
+    "region": "Москва",
+    "status": "public_catalog",
+    "url": "https://www.vseinstrumenti.ru/",
+    "note": "Публичный каталог; итоговая цена зависит от региона и условий."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "version": "32",
+  "name": "DomAI Layout Editor",
+  "features": [
+    "rooms",
+    "partitions",
+    "room-split",
+    "area-recalc",
+    "auto-doors",
+    "auto-windows",
+    "save"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "52",
+  "name": "DomAI Dimensioned Drawings",
+  "features": [
+    "dimensions",
+    "axes",
+    "areas",
+    "windows",
+    "doors",
+    "wall-thickness",
+    "floor-height",
+    "print-pdf"
+  ]
+}

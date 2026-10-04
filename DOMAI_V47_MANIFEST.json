@@ -1,0 +1,12 @@
+{
+  "version": "47",
+  "name": "DomAI 3D Object Picker",
+  "features": [
+    "3d-raycast-selection",
+    "object-highlight",
+    "per-object-material",
+    "material-toolbar",
+    "semantic-object-labels",
+    "localStorage"
+  ]
+}

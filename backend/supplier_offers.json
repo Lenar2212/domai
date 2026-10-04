@@ -1,0 +1,122 @@
+[
+  {
+    "material_id": "wall_gasblock_400_real",
+    "supplier_id": "petrovich",
+    "name": "Газобетон ЛСР D400 400 мм",
+    "unit": "м³",
+    "price": 6750.08,
+    "stock": "проверить",
+    "source_url": "https://petrovich.ru/product/101727/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "wall_gasblock_400_real",
+    "supplier_id": "leroy",
+    "name": "Газобетон D400 — аналог",
+    "unit": "м³",
+    "price": 6900,
+    "stock": "проверить",
+    "source_url": "https://lemanapro.ru/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "wall_gasblock_400_real",
+    "supplier_id": "vseinstrumenti",
+    "name": "Газобетон D400 — аналог",
+    "unit": "м³",
+    "price": 7200,
+    "stock": "проверить",
+    "source_url": "https://www.vseinstrumenti.ru/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "roof_metal_real",
+    "supplier_id": "petrovich",
+    "name": "Grand Line Классик 0,5 мм",
+    "unit": "м²",
+    "price": 1178,
+    "stock": "проверить",
+    "source_url": "https://moscow.petrovich.ru/product/1129068/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "roof_metal_real",
+    "supplier_id": "leroy",
+    "name": "Металлочерепица — аналог",
+    "unit": "м²",
+    "price": 1250,
+    "stock": "проверить",
+    "source_url": "https://lemanapro.ru/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "roof_metal_real",
+    "supplier_id": "vseinstrumenti",
+    "name": "Металлочерепица — аналог",
+    "unit": "м²",
+    "price": 1320,
+    "stock": "проверить",
+    "source_url": "https://www.vseinstrumenti.ru/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "window_real",
+    "supplier_id": "petrovich",
+    "name": "VEKA Softline 70 1160×1200",
+    "unit": "шт",
+    "price": 24896,
+    "stock": "проверить",
+    "source_url": "https://moscow.petrovich.ru/product/981550/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "window_real",
+    "supplier_id": "leroy",
+    "name": "Окно ПВХ — аналог",
+    "unit": "шт",
+    "price": 22900,
+    "stock": "проверить",
+    "source_url": "https://lemanapro.ru/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "window_real",
+    "supplier_id": "vseinstrumenti",
+    "name": "Окно ПВХ — аналог",
+    "unit": "шт",
+    "price": 24100,
+    "stock": "проверить",
+    "source_url": "https://www.vseinstrumenti.ru/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "door_real",
+    "supplier_id": "petrovich",
+    "name": "Дверной континент Термаль Люкс",
+    "unit": "шт",
+    "price": 38679,
+    "stock": "проверить",
+    "source_url": "https://moscow.petrovich.ru/product/1130913/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "door_real",
+    "supplier_id": "leroy",
+    "name": "Входная дверь — аналог",
+    "unit": "шт",
+    "price": 35900,
+    "stock": "проверить",
+    "source_url": "https://lemanapro.ru/",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "material_id": "door_real",
+    "supplier_id": "vseinstrumenti",
+    "name": "Входная дверь — аналог",
+    "unit": "шт",
+    "price": 37400,
+    "stock": "проверить",
+    "source_url": "https://www.vseinstrumenti.ru/",
+    "checked_at": "2026-10-03"
+  }
+]

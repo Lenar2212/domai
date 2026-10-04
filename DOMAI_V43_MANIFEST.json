@@ -1,0 +1,15 @@
+{
+  "version": "43",
+  "name": "DomAI 3D Material Preview",
+  "features": [
+    "3d-facade",
+    "3d-roof",
+    "3d-windows",
+    "3d-doors",
+    "3d-gates",
+    "3d-fence",
+    "3d-grass",
+    "3d-trees",
+    "material-state-save"
+  ]
+}

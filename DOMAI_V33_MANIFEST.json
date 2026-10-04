@@ -1,0 +1,12 @@
+{
+  "version": "33",
+  "name": "DomAI 2D 3D Sync",
+  "features": [
+    "2d-canvas",
+    "drag-rooms",
+    "dimensions",
+    "area",
+    "2d-3d-events",
+    "save"
+  ]
+}

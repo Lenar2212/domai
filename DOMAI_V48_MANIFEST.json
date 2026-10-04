@@ -1,0 +1,13 @@
+{
+  "version": "48",
+  "name": "DomAI 3D Transform Editor",
+  "features": [
+    "object-transform",
+    "position-x-y-z",
+    "width-height-depth",
+    "rotation-y",
+    "live-update",
+    "reset",
+    "localStorage"
+  ]
+}

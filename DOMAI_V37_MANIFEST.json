@@ -1,0 +1,12 @@
+{
+  "version": "37",
+  "name": "DomAI 3D Site Editor",
+  "features": [
+    "3d-drag",
+    "numeric-edit",
+    "boundary-check",
+    "overlap-check",
+    "save-local",
+    "save-server-fallback"
+  ]
+}

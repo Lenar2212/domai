@@ -1,0 +1,12 @@
+{
+  "version": "30",
+  "name": "DomAI Parametric 3D",
+  "features": [
+    "drag-room",
+    "grid-snap",
+    "numeric-edit",
+    "boundary-clamp",
+    "2d-sync-event",
+    "save"
+  ]
+}

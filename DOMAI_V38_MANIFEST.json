@@ -1,0 +1,13 @@
+{
+  "version": "38",
+  "name": "DomAI AI Site Optimizer",
+  "features": [
+    "layout-optimization",
+    "grid-search",
+    "boundary-check",
+    "overlap-check",
+    "score",
+    "apply-to-3d",
+    "local-save"
+  ]
+}
