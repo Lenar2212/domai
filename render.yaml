@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: domai-business
+    runtime: python
+    plan: starter
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python backend/server.py"
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.5"
+      - key: DOMAI_DATA_DIR
+        value: "/var/data"
+      - key: DATABASE_URL
+        sync: false
+      - key: YOOKASSA_SHOP_ID
+        sync: false
+      - key: YOOKASSA_SECRET_KEY
+        sync: false
+      - key: DOMAI_ADMIN_BOOTSTRAP_KEY
+        sync: false
+      - key: DOMAI_SELLER_NAME
+        sync: false
+      - key: DOMAI_SELLER_INN
+        sync: false
+      - key: DOMAI_SELLER_STATUS
+        sync: false
+      - key: DOMAI_SELLER_EMAIL
+        sync: false
+      - key: DOMAI_SELLER_ADDRESS
+        sync: false
+    disk:
+      name: domai-data
+      mountPath: /var/data
+      sizeGB: 1
